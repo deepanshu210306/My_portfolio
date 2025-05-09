@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a202c;
+            color: #e2e8f0;
+        }
+        .navbar {
+            background-color: #2d3748;
+            padding: 15px;
+            text-align: center;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .navbar a {
+            color: #e2e8f0;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            padding: 8px 15px;
+            border-radius: 10px;
+        }
+        .navbar a:hover {
+            background-color: #4a5568;
+            color: #cbd5e0;
+        }
+        .section {
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: center;
+            border-radius: 15px;
+        }
+        .home-section {
+            background-color: #2d3748;
+            border: 1px solid #4a5568;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .about-section {
+            background-color: #1a202c;
+            border: 1px solid #4a5568;
+        }
+        .projects-section {
+            background-color: #2d3748;
+            border: 1px solid #4a5568;
+        }
+        .skills-section {
+            background-color: #1a202c;
+            border: 1px solid #4a5568;
+        }
+        .contact-section {
+            background-color: #2d3748;
+            border: 1px solid #4a5568;
+            margin-bottom: 40px;
+        }
+        .project-box {
+            border: 1px solid #4a5568;
+            margin: 15px 0;
+            padding: 15px;
+            background-color: #4a5568;
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+        .project-box:hover {
+            transform: scale(1.02);
+        }
+        .skill-box {
+            display: inline-block;
+            border: 1px solid #4a5568;
+            padding: 10px 15px;
+            margin: 8px;
+            background-color: #2d3748;
+            border-radius: 8px;
+            transition: background-color 0.2s;
+        }
+        .skill-box:hover {
+            background-color: #4a5568;
+        }
+        h1, h2 {
+            color: #63b3ed;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        a {
+            color: #63b3ed;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #90cdf4;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div id="home" class="section home-section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi! I'm a 2nd Year B.Tech Student in Energy Engineering at IIT Delhi</p>
+        <p><a href="#projects">Check out my projects!</a></p>
+    </div>
+
+    <div id="about" class="section about-section">
+        <h2>About Me</h2>
+        <p>I'm studying Energy Engineering at IIT Delhi in my 2nd year. I love working on software projects and learning about energy technology.</p>
+        <p> I'm interested in coding and building projects that help solve real-world problems.</p>
+    </div>
+
+    <div id="projects" class="section projects-section">
+        <h2>My Projects</h2>
+        <div class="project-box">
+            <h3>[Renewable Energy Blog]</h3>
+            <p>[Built blog-style mini-CMS to promote renewable energy, increasing engagement by 30%.]</p>
+            <p>Technologies: [JavaScript,HTML,CSS]</p>
+        </div>
+        <div class="project-box">
+            <h3>[Typing Speed Tester]</h3>
+            <p>[Created interactive web app for real-time WPM calculation, tested by 50+ peers.]</p>
+            <p>Technologies: [JavaScript,HTML,CSS]</p>
+        </div>
+    </div>
+
+    <div id="skills" class="section skills-section">
+        <h2>Skills</h2>
+        <div class="skill-box">C lang.</div>
+        <div class="skill-box">C++ lang.</div>
+        <div class="skill-box">HTML</div>
+        <div class="skill-box">CSS</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">AutoCad</div>
+    </div>
+
+    <div id="contact" class="section contact-section">
+        <h2>Contact Me</h2>
+        <p>Email: deepanshu210306@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/deepanshu-63038328b/">Deepanshu</a></p>
+        <p>GitHub: <a href="[Your GitHub URL]">[Your GitHub Profile]</a></p>
+    </div>
+</body>
+</html>
